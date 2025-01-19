@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ismail Khan Profile</title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(240, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+h1,h2{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+header{
+    background-color: rgb(51, 51, 58);
+    padding: 20px 0;
+    color: white;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header .logo h1{
+    font-size: 2.5rem;
+
+}
+header nav ul{
+    list-style-type: none;
+   
+}
+header nav ul li{
+    display: inline;
+    padding-left: 20px;
+   
+    
+}
+header nav ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+   
+}
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+#about{
+    background-color: aliceblue;
+    padding: 60px 0;
+}
+#about .about-content{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+#about .bio{
+    width: 60%;
+}
+#about .bio p{
+    font-size: 1.1rem;
+    color: #555;
+}
+#about .image img{
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+#skill{
+    background-color: #fffcfc; 
+    padding: 60px 0;
+
+}
+#skill .skill-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+#skill .Skill{
+    background-color: #f5f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#skill .skill-content h1{
+    font-size: 1.5rem;
+    color: #242222;
+}
+#skill .skill-content p{
+    font-size: 1rem;
+    color: #1d1c1c;
+}
+#project{
+    background-color: aliceblue;
+    padding: 60px 0;
+    
+}
+#project .Project-section{
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+       gap: 40px;
+       
+}
+#project .project-card{
+       background-color: rgb(245, 240, 240);
+       padding: 20px;
+       border-radius: 8px;
+     
+       box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+#project .project-card img{
+    width: 70%;
+    border-radius: 8px;
+}
+#project .project-card h2{
+    font-size: 1.4rem;
+    margin: 20px 0;
+}
+#project .project-card a{
+    display: inline-block;
+    color: #1e2a47;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+#project .project-card a:hover{
+    text-decoration: underline;
+}
+#contactinfo{
+    background-color: #203458;
+    color: #fffcfc;
+    padding: 60px 0;
+    
+}
+#contactinfo .Contact-section{
+    padding-left: 30px;
+}
+#contactinfo .Contact-section a{
+    color: #f5f4f4;
+    text-decoration: none;
+}
+#contactinfo .Contact-section a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+footer p{
+    font-size: 1rem;
+}
+ @media(max-width:768){
+    header .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    header nav ul{
+        margin-top: 20px;
+    }
+    #about .about-content{
+        flex-direction: column;
+    }
+    #skill .skill-content{
+        grid-template-columns: 1fr;
+    }
+    #project .Project-section{
+        grid-template-columns: 1fr;
+    }
+ }
+</style>
+<body>
+    <header>
+<div class="container">
+<div class="logo">
+<h1 style="color: white;">M.Ismail khan</h1>
+<P>Web Developer</P>
+</div>
+<nav>
+<ul>
+<li>
+<a href="#about">About</a>
+<a href="#skill">Skills</a>
+<a href="#project">Projects</a>
+<a href="#contactinfo">Contact Me</a>
+</li>
+</ul>
+</nav>
+</div>
+ </header>
+<section id="about">
+<div class="Container">
+<div class="about-content">
+    <div class="bio">
+     <h1>About Me</h1>
+     <p>Hi, I'm <strong>Ismail</strong>, a passionate web developer based in City, Country. I specialize in creating dynamic, responsive websites and applications. I love solving problems and building solutions that make the web a better place.</p>
+</div>
+
+<div class="image">
+    <img src="DP.jpg" alt="pic">
+
+</div>
+</div>
+</div>
+</section>
+
+<section id="skill">
+<div class="Container">
+<h1>Skills</h1>
+    <div class="skill-content">
+<div class="Skill">
+<h1>HTML</h1>
+<P>Expert in creating well-structured, semantic HTML documents.</P>
+</div>
+<div class="Skill">
+    <h1>CSS</h1>
+    <P>Proficient in modern CSS, Flexbox, Grid, and responsive design.</P>
+    </div>
+    <div class="Skill">
+        <h1>JAVA Script</h1>
+        <P>Skilled in building interactive websites and applications using JavaScript.</P>
+        </div>
+        <div class="Skill">
+            <h1>Adobe Illustrator</h1>
+            <P>Expertise in modren logo and attractive design.</P>
+            </div>
+            <div class="Skill">
+                <h1>Photo Shop</h1>
+                <P>Professional in making attractive color combo</P>
+                </div>
+                <div class="Skill">
+                    <h1>React</h1>
+                    <P>Experienced with React for building efficient and scalable frontend applications.</P>
+                    </div>
+                
+
+</div>
+</div>
+</section>
+<section id="project">
+<div class="Container">
+<h1>Projects</h1>
+    <div class="Project-section">
+<div class="project-card">
+<img src="Screenshot 2025-01-16 120511.jpg">
+    <h2>Project 1</h2>
+   <p>A brief description of your project, technologies used, and the impact it made.</p>
+   <a href="https://ismailkhan9808.github.io/bayct/bayct/" target="_blank">View</a>
+</div>
+<div class="project-card">
+    <img src="Screenshot 2025-01-16 120511.jpg">
+        <h2>Project 2</h2>
+       <p>A brief description of your project, technologies used, and the impact it made.</p>
+       <a href="https://github.com/ismailkhan9808/Prayers-timing" target="_blank">View </a>
+    </div>
+    <div class="project-card">
+        <img src="Screenshot 2025-01-16 120511.jpg">
+            <h2>Project 3</h2>
+           <p>A brief description of your project, technologies used, and the impact it made.</p>
+           <a href="https://github.com/ismailkhan9808/Weather-Forecast" target="_blank">View</a>
+        </div>
+        
+</div>
+</div>
+</section>
+
+<section id="contactinfo"> 
+<div class="Contact-section">
+<h2 style="color: white; font-size: 40px;">Contact</h2>
+<p>Feel free to reach out to me for collaborations, freelance work, or just to connect!</p>
+<div class="contact-info"></div>
+<p>Email:<a href="mailto:muhammmadismailkhan@gmail.com">muhammmadismailkhan@gmail.com</a></p>
+<p>Linkedin<a href=""></a></p>
+<p>Github<a href="https://github.com/ismailkhan9808" target="_blank">https://github.com/ismailkhan9808</a></p>
+</div>
+</section>
+<footer>
+ <div class="container">
+ <p>&copy;2025 Ismail Khan. All Rights Reserved.</p>
+ </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
